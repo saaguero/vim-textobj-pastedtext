@@ -16,6 +16,10 @@ By default it creates the following mapping:
 
     gb
 
+To change it, modify the `g:pastedtext_select_key` variable. For example:
+
+    let g:pastedtext_select_key = 'p'
+
 That said, you can use it as if it were any other vim text object. Here are a couple of examples:
 
 - `vgb` Select last pasted text.
